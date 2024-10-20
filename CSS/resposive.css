@@ -2,6 +2,14 @@
      --sm:16px;
 }
 /* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 375.98px){
+     .navbar-toggler {
+          margin-left: 295px;
+          border: none;
+          position: relative;
+          bottom: 48px;
+      }
+}
 @media (max-width: 575.98px) { 
      .navbar-toggler {
           margin-left: 162px;
