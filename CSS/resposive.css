@@ -3,14 +3,10 @@
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 575.98px) { 
-     .navbar-toggler{
-          margin-left: 180px;
+     .navbar-toggler {
+          margin-left: 162px;
           border: none;
-     }
-     .navbar-cs .navbar-body{
-          background-color: #25a5e0;
-          
-     }
+      }
      #navbarNav .navbar-nav{
           position: relative;
           left: 100%;
@@ -22,6 +18,27 @@
      .skill-main{
           /* display: none; */
      }
+     .skill-nav .skill-btn{
+          display: inline-block;
+          font-size: 16px;
+          font-weight: 300;
+          color: var(--color-text);
+          width: 250px;
+          text-align: center;
+          padding: 10px 0;
+          border-radius: 15px;
+      }
+      .skill-nav a span{
+          display: inline-block;
+          width: 10px;
+          height: 1px;
+          background-color: var(--color-text);
+          margin: 0 0px 7px 0px;
+          display: none;
+      }
+      .skill-nav a strong{
+          display: none;
+      }
      .content{
           display: flex;
           /* align-items: center;
@@ -34,6 +51,28 @@
       }
       .content-2{
           width: 100%;
+      }
+      .content-skill-item .content-skill-item-logo {
+          width: 8%;
+          height: 30px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 20px 0;
+      }
+      .content-skill-item .content-skill-item-logo img {
+          width: 18px;
+      }
+      .content-skill-item .content-skill-item-titel h3 {
+          font-size: 20px;
+          margin-left: 5px;
+      }
+      .content-skill-item .content-skill-item-result span {
+          font-size: 16px;
+      }
+      .right-content {
+          left: 49.1%;
       }
      .banner-text {
           font-size: var(--sm);
@@ -49,10 +88,94 @@
           padding: 10px 5px;
           border-radius: 10px;
       }
+      .portfolio-btn button {
+          margin-top: 10px;
+      }
+      .blog-item p {
+          font-size: 9px;
+          font-weight: bold;
+      }
+      .blog-item h3 {
+          font-size: 13px;
+          margin-top: -9px;
+      }
+      #contact .contact-titel h2::after {
+          width: 388px;
+          bottom: -30%;
+      }
+      .get-in-touch input {
+          width: 80%;
+      }
+      .get-in-touch textarea {
+          width: 80%;
+      }
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+     .navbar-toggler {
+          margin-left: 460px;
+          border: none;
+      }
+      #navbarNav .navbar-nav {
+          position: relative;
+          left: 206%;
+          padding-top: 25px;
+      }
+     #navbarNav .navbar-nav li{
+          padding-top: 25px;
+     }
+     .skill-nav .skill-btn{
+          display: inline-block;
+          font-size: 16px;
+          font-weight: 300;
+          color: var(--color-text);
+          width: 250px;
+          text-align: center;
+          padding: 10px 0;
+          border-radius: 15px;
+      }
+      .skill-nav a span{
+          display: inline-block;
+          width: 10px;
+          height: 1px;
+          background-color: var(--color-text);
+          margin: 0 0px 7px 0px;
+          display: none;
+      }
+      .skill-nav a strong{
+          display: none;
+      }
+      .content{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+      }
+      .content-1{
+          width: 100%;
+      }
+      .content-2{
+          width: 100%;
+      }
+      .blog-item p {
+          font-size: 15px;
+          font-weight: bold;
+      }
+      .blog-item h3 {
+          font-size: 17px;
+          margin-top: -9px;
+      }
+      #contact .contact-titel h2::after {
+          width: 513px;
+          bottom: -30%;
+      }
+      .get-in-touch input {
+          width: 90%;
+      }
+      .get-in-touch textarea {
+          width: 90%;
+      }
+}
 
 /* // Large devices (desktops, 992px and up) */
 @media (max-width: 991.98px) {}
