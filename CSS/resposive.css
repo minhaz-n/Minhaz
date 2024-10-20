@@ -20,8 +20,21 @@
           padding-top: 25px;
      }
      .skill-main{
-          display: none;
+          /* display: none; */
      }
+     .content{
+          display: flex;
+          /* align-items: center;
+          justify-content: space-between; */
+          flex-wrap: wrap;
+          flex-direction: column;
+      }
+      .content-1{
+          width: 100%;
+      }
+      .content-2{
+          width: 100%;
+      }
      .banner-text {
           font-size: var(--sm);
      }

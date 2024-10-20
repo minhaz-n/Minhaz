@@ -271,8 +271,12 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .content-1{
+    width: 45%;
+}
+.content-2{
     width: 45%;
 }
 .content-input{
@@ -289,7 +293,7 @@ a{
 .content-input h5{
     margin: 0;
     text-align: left;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     font-size: 18px;
     color: var(--color-text);
 }
