@@ -115,6 +115,7 @@
       #contact .contact-titel h2::after {
           width: 388px;
           bottom: -30%;
+          display: none;
       }
       .get-in-touch input {
           width: 80%;
