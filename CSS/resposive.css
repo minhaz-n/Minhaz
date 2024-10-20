@@ -9,6 +9,9 @@
           position: relative;
           bottom: 48px;
       }
+      .skill-main{
+          display: none;
+      }
 }
 @media (max-width: 575.98px) { 
      .navbar-toggler {
@@ -122,8 +125,8 @@
 /* // Medium devices (tablets, 768px and up) */
 @media (max-width: 767.98px) {
      .navbar-toggler {
-          margin-left: 460px;
           border: none;
+          margin-left: 150px;
       }
       #navbarNav .navbar-nav {
           position: relative;
@@ -174,7 +177,8 @@
           margin-top: -9px;
       }
       #contact .contact-titel h2::after {
-          width: 513px;
+          width: 389px;
+          width: 375px;
           bottom: -30%;
       }
       .get-in-touch input {
