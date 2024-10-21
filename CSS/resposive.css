@@ -14,19 +14,12 @@
       }
 } */
 @media (max-width: 575.98px) { 
-     .navbar-toggler {
-          margin-left: 150px;
-          border: none;
-          position: relative;
-        bottom: 14px;
-      }
-     #navbarNav .navbar-nav{
-          position: relative;
-          left: 100%;
-          padding-top: 25px;
+    
+     .banner-text h1{
+        font-size: 50px;
      }
-     #navbarNav .navbar-nav li{
-          padding-top: 25px;
+     .banner-text p{
+        font-size: 20px;
      }
      .skill-main{
           /* display: none; */
@@ -126,20 +119,11 @@
 }
 
 /* // Medium devices (tablets, 768px and up) */
-/* @media (max-width: 767.98px) {
-     .navbar-toggler {
-          border: none;
-          margin-left: 150px;
-      }
-      #navbarNav .navbar-nav {
-          position: relative;
-          left: 206%;
-          padding-top: 25px;
-      }
-     #navbarNav .navbar-nav li{
-          padding-top: 25px;
+@media (max-width: 767.98px) {
+     .skill-nav {
+        display: none;
      }
-     .skill-nav .skill-btn{
+     .skill-btn{
           display: inline-block;
           font-size: 16px;
           font-weight: 300;
@@ -190,7 +174,7 @@
       .get-in-touch textarea {
           width: 90%;
       }
-} */
+}
 
 /* // Large devices (desktops, 992px and up) */
 @media (max-width: 991.98px) {}
