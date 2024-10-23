@@ -789,3 +789,29 @@ footer p{
     margin-top: 20px;
 }
 /* ------Contact css end------ */
+/* pop-up css start */
+.pop-up{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--overlay);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+.pop-up-item{
+    width: 60%;
+    height: 60vh;
+    background-color: #033043;
+    position: relative;
+    top: 25%;
+    left: 20%;
+}
+.pop-up-item img{
+    width: 50px;
+    position: relative;
+    left: 93%;
+    top: 3%;
+    cursor: pointer;
+}
+/* pop-up css start */

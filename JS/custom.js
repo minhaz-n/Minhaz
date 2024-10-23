@@ -42,6 +42,9 @@ $(document).ready(function(){
         arrows:false,
         dots:true
       });
+    $(".pop-up-item img").click(function(){
+        $(".pop-up").fadeOut();
+    });
 });
 
 var $grid = $('.portfolio-content').isotope({
